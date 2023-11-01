@@ -1,0 +1,56 @@
+body{
+    background-image: url("banda3");
+    background-repeat: no-repeat;
+}
+
+/*este e o código para a barra de navegação*/
+.navbar{
+    width: 100%; /* deifinir a largura*/
+    height: 50px; /* definir a altura */
+    background-color: red; /* defnir a cor da barra*/
+    display: flex; /* coloquei display flex para que os elementos sejam flexiveis*/
+    align-items: center; /* definir os itens no centro*/
+    justify-content: center; /* definir alinhar os itens mo centro da barra */
+}
+.navbar a{ /* vou definir o estilos dos links na barra */
+    color: white; /* definir a cor branca para os links*/
+    margin: 0 20px; /* definir um espaçamento entre os links*/
+    font-family: Arial, sans-serif; /* definir o estilo de texto */
+    font-size: 18px; /* definir o tamanho da fonte */
+    text-decoration: none; /* retirar o sublinhado dos links*/
+}
+ .navbar a:hover{
+    color: yellow; /* definir a cor dos links */
+ }
+
+img { /* vou definir os estilos da imagem */
+    width: 750; 
+    height: 750px;
+    background-image: 100%;
+    position: center;
+    padding-right: 0;
+    padding-left: 0;
+}
+
+main{/* vou definir o estilo da seção principal */
+    display: flex; /* vou colocar um display como flexivel */ 
+    align-items: center; /* vou alinhar os itens no centro vericalmente */
+    justify-content: space-between; /* vou distribui os espaços entre os itens horizontalmente */
+    font-family: Arial, sans-serif; /* vou definir a fonte */
+    font-size: 18px; /* definir o tamanho da fonte */
+}
+
+aside{/* vou definir o estili das seções laterais*/
+    width: 250px;  /* vou definir a largura das seções */
+    height: 1040px; /* vou definir altura*/
+    padding: 20px; /* vou definir o espaçamento interno das seções*/
+    border: 1px solid black; /* vou definir a borda das seções*/
+}
+
+aside.left{ /* vou definir o estilo da seções a esquerda */
+    background-color: lightblue; /* vou definir a cor de fundo da seção */
+}
+
+aside.right{ /* vou definir o estilo da seção a direita */
+    background-color: lightblue; /* definir a cor de fundo da seção da direita */
+}
