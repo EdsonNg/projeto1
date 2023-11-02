@@ -1,5 +1,5 @@
 body{
-    background-image: url("banda3");
+    background-image: url("banda3.jpg");
     background-repeat: no-repeat;
 }
 
@@ -23,21 +23,13 @@ body{
     color: yellow; /* definir a cor dos links */
  }
 
-img { /* vou definir os estilos da imagem */
-    width: 750; 
-    height: 750px;
-    background-image: 100%;
-    position: center;
-    padding-right: 0;
-    padding-left: 0;
-}
-
 main{/* vou definir o estilo da seção principal */
     display: flex; /* vou colocar um display como flexivel */ 
     align-items: center; /* vou alinhar os itens no centro vericalmente */
     justify-content: space-between; /* vou distribui os espaços entre os itens horizontalmente */
     font-family: Arial, sans-serif; /* vou definir a fonte */
     font-size: 18px; /* definir o tamanho da fonte */
+    color: white;
 }
 
 aside{/* vou definir o estili das seções laterais*/
@@ -48,9 +40,9 @@ aside{/* vou definir o estili das seções laterais*/
 }
 
 aside.left{ /* vou definir o estilo da seções a esquerda */
-    background-color: lightblue; /* vou definir a cor de fundo da seção */
+    background-color: black; /* vou definir a cor de fundo da seção */
 }
 
 aside.right{ /* vou definir o estilo da seção a direita */
-    background-color: lightblue; /* definir a cor de fundo da seção da direita */
+    background-color: black; /* definir a cor de fundo da seção da direita */
 }
